@@ -1,15 +1,22 @@
 export default function Card(){
   return (
     <>
-    <div
-      className="card"
-      style={{
-        backgroundColor: "white",
-        width: 100,
-        height: 150
-    }}>
-      <h4>Card</h4>
-      <p>This is a card.</p>
+    <div className="card">
+      <img src="https://placehold.co/100x100"/>
+      <div className="info">
+        <h4 style={{
+          color: "black",
+          margin: 0
+        }}>
+          Name
+        </h4>
+        <p style={{
+          color: "black",
+          overflowWrap: "break-word"
+        }}>
+          Information regarding you and your github.
+        </p>
+      </div>
     </div>
     </>
   )

@@ -6,10 +6,15 @@
 }
 
 .card {
-  padding: 2em;
+  padding: 20px;
   border-radius: 5px;
+  display: flex;
+  background-color: white;
+  width: 300px;
+  align-items: start;
 }
 
-.h4 {
-  color: black;
+.info {
+  padding-left: 10px;
+  text-align: left;
 }
